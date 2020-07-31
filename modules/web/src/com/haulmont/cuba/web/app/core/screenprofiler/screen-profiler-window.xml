@@ -64,7 +64,7 @@
                 <button id="clearResultsButton" caption="msg://clearResults" invoke="clearResults"/>
                 <button id="excel" action="table.excel"/>
                 <button id="profilingButton" caption="msg://activateProfiling" invoke="activateProfiling"/>
-                <checkBox id="refreshEventsCheck" caption="msg://refreshEvents" align="MIDDLE_LEFT"/>
+                <checkBox id="refreshEventsCheck" caption="msg://refreshEvents" stylename="refresh-events-check"/>
             </buttonsPanel>
             <columns>
                 <column id="eventTs">
